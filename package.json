@@ -1,0 +1,35 @@
+{
+  "name": "ioc-test",
+  "version": "1.0.0",
+  "description": "An example of how to use React, InversifyJS, JEST and Typescript",
+  "repository": "https://github.com/marozzocom/ioc.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Ilkka Hartikainen",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "babel-jest": "^24.5.0",
+    "inversify": "^5.0.1",
+    "inversify-inject-decorators": "^3.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-testing-library": "^6.0.3",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.4000",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}

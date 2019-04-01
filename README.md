@@ -1,2 +1,2 @@
 # ioc
-An example of how to use React, InversifyJS, JEST and Typescript
+Simple example of using InversifyJS to inject data service to a React component.
